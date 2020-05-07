@@ -6,7 +6,7 @@
   "graceEnd": "2020/12/31 12:00:00",
   "sendGraceEndedAnnouncement": true,
   "graceEndedAnnouncement": "&7Grace period has ended, &6explosions are now &6&lENABLED&7.",
-  "commandGraceHelp": "&aview grace timer.",
+  "commandGraceHelp": "&7view grace timer.",
   "commandGraceTimer": "&7Grace time left: %1$s",
   "commandGraceDisabled": "&7Grace is &4disabled."
 }
