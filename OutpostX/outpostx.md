@@ -1,4 +1,0 @@
-#OutpostX
-  ###Default Files
-  
-  - 
