@@ -1,0 +1,616 @@
+{
+  "islandQuestGUITitle": "&bIsland Quests",
+  "islandQuestGUIBackgroundItem": {
+    "material": "BLACK_STAINED_GLASS_PANE",
+    "name": "&9",
+    "lore": [],
+    "amt": 1
+  },
+  "islandQuestGUIRows": 3,
+  "questOrder": [
+    "Quest-1",
+    "Quest-2",
+    "Quest-3",
+    "Quest-4",
+    "Quest-5",
+    "Quest-6",
+    "Quest-7",
+    "Quest-8",
+    "Quest-9",
+    "Quest-10",
+    "Quest-11",
+    "Quest-12",
+    "Quest-13",
+    "Quest-14",
+    "Quest-15",
+    "Quest-16",
+    "Quest-17",
+    "Quest-18",
+    "Quest-19"
+  ],
+  "useQuestOrder": true,
+  "sendNextQuestInOrderMessages": true,
+  "islandQuests": [
+    {
+      "id": "Quest-1",
+      "name": "Get wood from your island's tree",
+      "guiDisplayItem": {
+        "material": "OAK_WOOD",
+        "name": "&bGet wood from island's tree",
+        "lore": [
+          "&7Break the wood from your island's tree trunk",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 0,
+      "type": "BREAK_BLOCKS",
+      "goalParameter": "OAK_LOG",
+      "amountTillComplete": 1,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)",
+          "command(give {player} oak_sapling 1:::give {player} apple 1)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-2",
+      "name": "Craft a wooden pickaxe",
+      "guiDisplayItem": {
+        "material": "WOODEN_PICKAXE",
+        "name": "&bCraft a Wooden Pickaxe",
+        "lore": [
+          "&7Put three planks and 2 sticks in a crafting table.",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 1,
+      "type": "CRAFT",
+      "goalParameter": "WOODEN_PICKAXE",
+      "amountTillComplete": 1,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress 0/0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-3",
+      "name": "Make a ore generator",
+      "guiDisplayItem": {
+        "material": "LAVA_BUCKET",
+        "name": "&8Create an Ore Generator",
+        "lore": [
+          "&7Mine &b3 &7cobblestone from Ore Generator",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 2,
+      "type": "BREAK_BLOCKS",
+      "goalParameter": "COBBLESTONE",
+      "amountTillComplete": 2,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-4",
+      "name": "Craft a Stone Pickaxe",
+      "guiDisplayItem": {
+        "material": "STONE_PICKAXE",
+        "name": "&8Craft a stone pickaxe.",
+        "lore": [
+          "&7Craft a Stone Pickaxe",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 3,
+      "type": "CRAFT",
+      "goalParameter": "STONE_PICKAXE",
+      "amountTillComplete": 1,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-5",
+      "name": "Mine 3 Iron Ore",
+      "guiDisplayItem": {
+        "material": "IRON_ORE",
+        "name": "&8Mine 3 Iron Ore from the Ore Generator.",
+        "lore": [
+          "&7Mine &b3 Iron Ore.",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 4,
+      "type": "BREAK_BLOCKS",
+      "goalParameter": "IRON_ORE",
+      "amountTillComplete": 3,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-6",
+      "name": "Craft an Furnace",
+      "guiDisplayItem": {
+        "material": "FURNACE",
+        "name": "&8Craft a Furnace",
+        "lore": [
+          "&7Place 8 cobblestone blocks in the crafting table.",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 5,
+      "type": "CRAFT",
+      "goalParameter": "FURNACE",
+      "amountTillComplete": 8,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)",
+          "command(give {player} coal 1)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-7",
+      "name": "Smelt Iron Ingot",
+      "guiDisplayItem": {
+        "material": "IRON_INGOT",
+        "name": "&8Smelt Iron Ingot",
+        "lore": [
+          "&7Smelt 3 Iron Ingots in a furnace.",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 6,
+      "type": "SMELT",
+      "goalParameter": "IRON_INGOT",
+      "amountTillComplete": 3,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-8",
+      "name": "Craft an &bIron Pickaxe",
+      "guiDisplayItem": {
+        "material": "IRON_PICKAXE",
+        "name": "&8Craft an Iron Pickaxe",
+        "lore": [
+          "&7Place three Iron Ingots and 2 Sticks into a crafting table.",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 7,
+      "type": "CRAFT",
+      "goalParameter": "IRON_PICKAXE",
+      "amountTillComplete": 1,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-9",
+      "name": "Plant a Sapling",
+      "guiDisplayItem": {
+        "material": "OAK_SAPLING",
+        "name": "&8Plant a sapling.",
+        "lore": [
+          "&7Plant the Oak Sapling in your Inventory.",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 8,
+      "type": "PLACE_BLOCKS",
+      "goalParameter": "OAK_SAPLING",
+      "amountTillComplete": 1,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-10",
+      "name": "&8Get some sand.",
+      "guiDisplayItem": {
+        "material": "SAND",
+        "name": "&8Get some sand.",
+        "lore": [
+          "&7Dig into your island and find the sand.",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 9,
+      "type": "BREAK_BLOCKS",
+      "goalParameter": "SAND",
+      "amountTillComplete": 3,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-11",
+      "name": "&8Plant some Cactus.",
+      "guiDisplayItem": {
+        "material": "CACTUS",
+        "name": "&8Plant some cactus.",
+        "lore": [
+          "&7Plant some cactus on sand.",
+          "&7You can find cactus in the island chest",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 10,
+      "type": "PLACE_BLOCKS",
+      "goalParameter": "CACTUS",
+      "amountTillComplete": 1,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-12",
+      "name": "&8Plant some sugarcane.",
+      "guiDisplayItem": {
+        "material": "SUGAR_CANE",
+        "name": "&8Plant some sugarcane.",
+        "lore": [
+          "&7Plant some sugarcane on sand.",
+          "&7You can find some sugarcane in the island chest.",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 11,
+      "type": "PLACE_BLOCKS",
+      "goalParameter": "CACTUS",
+      "amountTillComplete": 10,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-13",
+      "name": "&8Plant some melons.",
+      "guiDisplayItem": {
+        "material": "MELON_SLICE",
+        "name": "&8Plant some melons.",
+        "lore": [
+          "&7Plant some melons on tilled dirt.",
+          "&7You can find some melon seeds in the island chest.",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 12,
+      "type": "PLACE_BLOCKS",
+      "goalParameter": "MELON_SEEDS",
+      "amountTillComplete": 1,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-14",
+      "name": "&8Plant 20 Cacti.",
+      "guiDisplayItem": {
+        "material": "CACTUS",
+        "name": "&8Make a cactus farm.",
+        "lore": [
+          "&7Plant 20 cacti.",
+          "&7You can buy more sand from /is shop.",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 13,
+      "type": "PLACE_BLOCKS",
+      "goalParameter": "CACTUS",
+      "amountTillComplete": 20,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-15",
+      "name": "&8Plant 30 wheat seeds.",
+      "guiDisplayItem": {
+        "material": "WHEAT_SEEDS",
+        "name": "&8Make a wheat farm.",
+        "lore": [
+          "&7Plant some wheat on dirt.",
+          "&7You can buy more dirt from /is shop.",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 14,
+      "type": "PLACE_BLOCKS",
+      "goalParameter": "WHEAT_SEEDS",
+      "amountTillComplete": 30,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-16",
+      "name": "&8Harvest some wheat.",
+      "guiDisplayItem": {
+        "material": "WHEAT",
+        "name": "&8Harvest some wheat.",
+        "lore": [
+          "&7Harvest some fully grown wheat.",
+          "&7You can find some pumpkin in the island chest.",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 15,
+      "type": "BREAK_BLOCKS",
+      "goalParameter": "WHEAT",
+      "amountTillComplete": 1,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-17",
+      "name": "&8Kill 100 Zombies.",
+      "guiDisplayItem": {
+        "material": "ZOMBIE_HEAD",
+        "name": "&8Kill Zombies.",
+        "lore": [
+          "&7Kill 100 Zombies.",
+          "&7They will spawn in the dark.",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 16,
+      "type": "KILL_MOBS",
+      "goalParameter": "ZOMBIE",
+      "amountTillComplete": 100,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-18",
+      "name": "&8Kill 100 Skeleton.",
+      "guiDisplayItem": {
+        "material": "SKELETON_SKULL",
+        "name": "&8Kill Skeletons.",
+        "lore": [
+          "&7Kill 100 Skeletons.",
+          "&7They will spawn in the dark.",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 17,
+      "type": "KILL_MOBS",
+      "goalParameter": "SKELETON",
+      "amountTillComplete": 100,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    },
+    {
+      "id": "Quest-19",
+      "name": "&8Kill 100 Creepers.",
+      "guiDisplayItem": {
+        "material": "CREEPER_HEAD",
+        "name": "&8Kill Creepers.",
+        "lore": [
+          "&7Kill 100 Creepers.",
+          "&7They will spawn in the dark.",
+          "&7Completion: &b{currentAmount}&7/&b{finalAmount}"
+        ],
+        "amt": 1
+      },
+      "guiDisplayIndex": 16,
+      "type": "KILL_MOBS",
+      "goalParameter": "CREEPER",
+      "amountTillComplete": 100,
+      "oneTime": true,
+      "actionsOnActivation": {
+        "actions": [
+          "message(&7You have started the {quest-name}:::&7Your current progress is 0/{quest-amount-till-complete})",
+          "actionbar(&7Your quest progress is 0/{quest-amount-till-complete})"
+        ]
+      },
+      "actionsOnCompletion": {
+        "actions": [
+          "message(&7You have finished the {quest-name}:::&7Your current progress is {quest-amount-till-complete}/{quest-amount-till-complete})",
+          "title(&7{quest-name}:::&b&lQuest Completed)"
+        ]
+      }
+    }
+  ]
+}
