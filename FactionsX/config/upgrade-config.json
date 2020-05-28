@@ -1,0 +1,640 @@
+{
+  "upgrades": {
+    "MOB_DROP_MULTIPLIER": [
+      {
+        "enabled": true,
+        "name": "SKELETON",
+        "scope": "TERRITORY",
+        "costLevel": {
+          "1": {
+            "upgradeParam": 2.0,
+            "price": 10000.0
+          },
+          "2": {
+            "upgradeParam": 2.5,
+            "price": 50000.0
+          },
+          "3": {
+            "upgradeParam": 3.0,
+            "price": 100000.0
+          },
+          "4": {
+            "upgradeParam": 3.25,
+            "price": 500000.0
+          },
+          "5": {
+            "upgradeParam": 3.5,
+            "price": 1000000.0
+          }
+        },
+        "upgradeItem": {
+          "material": "BONE",
+          "name": "&fSkeleton Upgrade",
+          "lore": [
+            "&7Chance of dropping &fextra&7 items.",
+            "&7Level: &f&l{level}",
+            "&7Upgrade Cost: &f&l${cost}"
+          ],
+          "amt": 1
+        },
+        "upgradeMaxLevelLore": [
+          "&7Chance of dropping &fextra&7 items.",
+          "&c&lMAX LEVEL REACHED"
+        ],
+        "upgradeParam": "SKELETON"
+      },
+      {
+        "enabled": true,
+        "name": "BLAZE",
+        "scope": "TERRITORY",
+        "costLevel": {
+          "1": {
+            "upgradeParam": 2.0,
+            "price": 10000.0
+          },
+          "2": {
+            "upgradeParam": 2.5,
+            "price": 50000.0
+          },
+          "3": {
+            "upgradeParam": 3.0,
+            "price": 100000.0
+          },
+          "4": {
+            "upgradeParam": 3.25,
+            "price": 500000.0
+          },
+          "5": {
+            "upgradeParam": 3.5,
+            "price": 1000000.0
+          }
+        },
+        "upgradeItem": {
+          "material": "BLAZE_POWDER",
+          "name": "&6Blaze Upgrade",
+          "lore": [
+            "&7Chance of dropping &6extra&7 items.",
+            "&7Level: &6&l{level}",
+            "&7Upgrade Cost: &6&l${cost}"
+          ],
+          "amt": 1
+        },
+        "upgradeMaxLevelLore": [
+          "&7Chance of dropping &6extra&7 items.",
+          "&c&lMAX LEVEL REACHED"
+        ],
+        "upgradeParam": "BLAZE"
+      },
+      {
+        "enabled": true,
+        "name": "CREEPER",
+        "scope": "TERRITORY",
+        "costLevel": {
+          "1": {
+            "upgradeParam": 2.0,
+            "price": 10000.0
+          },
+          "2": {
+            "upgradeParam": 2.5,
+            "price": 50000.0
+          },
+          "3": {
+            "upgradeParam": 3.0,
+            "price": 100000.0
+          },
+          "4": {
+            "upgradeParam": 3.25,
+            "price": 500000.0
+          },
+          "5": {
+            "upgradeParam": 3.5,
+            "price": 1000000.0
+          }
+        },
+        "upgradeItem": {
+          "material": "GUNPOWDER",
+          "name": "&aCreeper Upgrade",
+          "lore": [
+            "&7Chance of dropping &aextra&7 items.",
+            "&7Level: &a&l{level}",
+            "&7Upgrade Cost: &a&l${cost}"
+          ],
+          "amt": 1
+        },
+        "upgradeMaxLevelLore": [
+          "&7Chance of dropping &aextra&7 items.",
+          "&c&lMAX LEVEL REACHED"
+        ],
+        "upgradeParam": "CREEPER"
+      },
+      {
+        "enabled": true,
+        "name": "ZOMBIE",
+        "scope": "TERRITORY",
+        "costLevel": {
+          "1": {
+            "upgradeParam": 2.0,
+            "price": 10000.0
+          },
+          "2": {
+            "upgradeParam": 2.5,
+            "price": 50000.0
+          },
+          "3": {
+            "upgradeParam": 3.0,
+            "price": 100000.0
+          },
+          "4": {
+            "upgradeParam": 3.25,
+            "price": 500000.0
+          },
+          "5": {
+            "upgradeParam": 3.5,
+            "price": 1000000.0
+          }
+        },
+        "upgradeItem": {
+          "material": "ROTTEN_FLESH",
+          "name": "&2Zombie Upgrade",
+          "lore": [
+            "&7Chance of dropping &2extra&7 items.",
+            "&7Level: &2&l{level}",
+            "&7Upgrade Cost: &2&l${cost}"
+          ],
+          "amt": 1
+        },
+        "upgradeMaxLevelLore": [
+          "&7Chance of dropping &fextra&7 items.",
+          "&c&lMAX LEVEL REACHED"
+        ],
+        "upgradeParam": "ZOMBIE"
+      },
+      {
+        "enabled": true,
+        "name": "IRON_GOLEM",
+        "scope": "TERRITORY",
+        "costLevel": {
+          "1": {
+            "upgradeParam": 2.0,
+            "price": 10000.0
+          },
+          "2": {
+            "upgradeParam": 2.5,
+            "price": 50000.0
+          },
+          "3": {
+            "upgradeParam": 3.0,
+            "price": 100000.0
+          },
+          "4": {
+            "upgradeParam": 3.25,
+            "price": 500000.0
+          },
+          "5": {
+            "upgradeParam": 3.5,
+            "price": 1000000.0
+          }
+        },
+        "upgradeItem": {
+          "material": "IRON_INGOT",
+          "name": "&4Iron Golem Upgrade",
+          "lore": [
+            "&7Chance of dropping &4extra&7 items.",
+            "&7Level: &4&l{level}",
+            "&7Upgrade Cost: &4&l${cost}"
+          ],
+          "amt": 1
+        },
+        "upgradeMaxLevelLore": [
+          "&7Chance of dropping &4extra&7 items.",
+          "&c&lMAX LEVEL REACHED"
+        ],
+        "upgradeParam": "IRON_GOLEM"
+      },
+      {
+        "enabled": true,
+        "name": "ZOMBIE_PIGMAN",
+        "scope": "TERRITORY",
+        "costLevel": {
+          "1": {
+            "upgradeParam": 2.0,
+            "price": 10000.0
+          },
+          "2": {
+            "upgradeParam": 2.5,
+            "price": 50000.0
+          },
+          "3": {
+            "upgradeParam": 3.0,
+            "price": 100000.0
+          },
+          "4": {
+            "upgradeParam": 3.25,
+            "price": 500000.0
+          },
+          "5": {
+            "upgradeParam": 3.5,
+            "price": 1000000.0
+          }
+        },
+        "upgradeItem": {
+          "material": "GOLD_NUGGET",
+          "name": "&eZombie Pigman Upgrade",
+          "lore": [
+            "&7Chance of dropping &eextra&7 items.",
+            "&7Level: &e&l{level}",
+            "&7Upgrade Cost: &e&l${cost}"
+          ],
+          "amt": 1
+        },
+        "upgradeMaxLevelLore": [
+          "&7Chance of dropping &eextra&7 items.",
+          "&c&lMAX LEVEL REACHED"
+        ],
+        "upgradeParam": "PIG_ZOMBIE"
+      }
+    ],
+    "DOUBLE_TALL": [
+      {
+        "enabled": true,
+        "name": "CACTUS",
+        "scope": "TERRITORY",
+        "costLevel": {
+          "1": {
+            "upgradeParam": 0.25,
+            "price": 10000.0
+          },
+          "2": {
+            "upgradeParam": 0.4,
+            "price": 50000.0
+          },
+          "3": {
+            "upgradeParam": 0.5,
+            "price": 100000.0
+          },
+          "4": {
+            "upgradeParam": 0.8,
+            "price": 500000.0
+          },
+          "5": {
+            "upgradeParam": 1.0,
+            "price": 1000000.0
+          }
+        },
+        "upgradeItem": {
+          "material": "CACTUS",
+          "name": "&2Cactus Growth",
+          "lore": [
+            "&7Chance of growing &2two&7 blocks.",
+            "&7Level: &2&l{level}",
+            "&7Upgrade Cost: &2&l${cost}"
+          ],
+          "amt": 1
+        },
+        "upgradeMaxLevelLore": [
+          "&7Chance of growing &2two&7 blocks.",
+          "&c&lMAX LEVEL REACHED"
+        ],
+        "upgradeParam": "CACTUS"
+      },
+      {
+        "enabled": true,
+        "name": "SUGARCANE",
+        "scope": "TERRITORY",
+        "costLevel": {
+          "1": {
+            "upgradeParam": 0.25,
+            "price": 10000.0
+          },
+          "2": {
+            "upgradeParam": 0.4,
+            "price": 50000.0
+          },
+          "3": {
+            "upgradeParam": 0.5,
+            "price": 100000.0
+          },
+          "4": {
+            "upgradeParam": 0.8,
+            "price": 500000.0
+          },
+          "5": {
+            "upgradeParam": 1.0,
+            "price": 1000000.0
+          }
+        },
+        "upgradeItem": {
+          "material": "SUGAR_CANE",
+          "name": "&aCane Growth",
+          "lore": [
+            "&7Chance of growing &atwo&7 blocks.",
+            "&7Level: &a&l{level}",
+            "&7Upgrade Cost: &a&l${cost}"
+          ],
+          "amt": 1
+        },
+        "upgradeMaxLevelLore": [
+          "&7Chance of growing &atwo&7 blocks.",
+          "&c&lMAX LEVEL REACHED"
+        ],
+        "upgradeParam": "SUGAR_CANE"
+      }
+    ],
+    "SPECIAL": [
+      {
+        "enabled": true,
+        "name": "FACTION_POWER",
+        "scope": "GLOBAL",
+        "costLevel": {
+          "1": {
+            "upgradeParam": 5.0,
+            "price": 10000.0
+          },
+          "2": {
+            "upgradeParam": 10.0,
+            "price": 50000.0
+          },
+          "3": {
+            "upgradeParam": 12.5,
+            "price": 100000.0
+          },
+          "4": {
+            "upgradeParam": 15.0,
+            "price": 500000.0
+          },
+          "5": {
+            "upgradeParam": 20.0,
+            "price": 1000000.0
+          }
+        },
+        "upgradeItem": {
+          "material": "GHAST_TEAR",
+          "name": "&bPower Upgrade",
+          "lore": [
+            "&7Increased faction member &bextra&7 power.",
+            "&7Level: &b&l{level}",
+            "&7Upgrade Cost: &b&l${cost}"
+          ],
+          "amt": 1
+        },
+        "upgradeMaxLevelLore": [
+          "&7Increased faction member &bextra&7 power.",
+          "&c&lMAX LEVEL REACHED"
+        ],
+        "upgradeParam": "INVALID_PARAMETER"
+      },
+      {
+        "enabled": true,
+        "name": "WHEAT_INSTANT_GROWTH",
+        "scope": "TERRITORY",
+        "costLevel": {
+          "1": {
+            "upgradeParam": 0.25,
+            "price": 10000.0
+          },
+          "2": {
+            "upgradeParam": 0.4,
+            "price": 50000.0
+          },
+          "3": {
+            "upgradeParam": 0.5,
+            "price": 100000.0
+          },
+          "4": {
+            "upgradeParam": 0.8,
+            "price": 500000.0
+          },
+          "5": {
+            "upgradeParam": 1.0,
+            "price": 1000000.0
+          }
+        },
+        "upgradeItem": {
+          "material": "WHEAT",
+          "name": "&eWheat Growth",
+          "lore": [
+            "&7Chance of growing &einstantly&7.",
+            "&7Level: &e&l{level}",
+            "&7Upgrade Cost: &e&l${cost}"
+          ],
+          "amt": 1
+        },
+        "upgradeMaxLevelLore": [
+          "&7Chance of growing &einstantly&7.",
+          "&c&lMAX LEVEL REACHED"
+        ],
+        "upgradeParam": "INVALID_PARAMETER"
+      },
+      {
+        "enabled": true,
+        "name": "FACTION_MEMBERS",
+        "scope": "GLOBAL",
+        "costLevel": {
+          "1": {
+            "upgradeParam": 5.0,
+            "price": 10000.0
+          },
+          "2": {
+            "upgradeParam": 5.0,
+            "price": 50000.0
+          },
+          "3": {
+            "upgradeParam": 5.0,
+            "price": 100000.0
+          },
+          "4": {
+            "upgradeParam": 5.0,
+            "price": 500000.0
+          },
+          "5": {
+            "upgradeParam": 5.0,
+            "price": 1000000.0
+          }
+        },
+        "upgradeItem": {
+          "material": "PLAYER_HEAD",
+          "name": "&aMember Upgrade",
+          "lore": [
+            "&7Increase &aMax&7 Faction Members.",
+            "&7Level: &a&l{level}",
+            "&7Upgrade Cost: &a&l${cost}"
+          ],
+          "amt": 1
+        },
+        "upgradeMaxLevelLore": [
+          "&7Increase &aMax&7 Faction Members.",
+          "&c&lMAX LEVEL REACHED"
+        ],
+        "upgradeParam": "INVALID_PARAMETER"
+      },
+      {
+        "enabled": true,
+        "name": "FACTION_WARPS",
+        "scope": "GLOBAL",
+        "costLevel": {
+          "1": {
+            "upgradeParam": 1.0,
+            "price": 10000.0
+          },
+          "2": {
+            "upgradeParam": 1.0,
+            "price": 50000.0
+          },
+          "3": {
+            "upgradeParam": 1.0,
+            "price": 100000.0
+          },
+          "4": {
+            "upgradeParam": 2.0,
+            "price": 500000.0
+          },
+          "5": {
+            "upgradeParam": 5.0,
+            "price": 1000000.0
+          }
+        },
+        "upgradeItem": {
+          "material": "ENDER_EYE",
+          "name": "&6Warp Upgrade",
+          "lore": [
+            "&7Increase &6Max&7 Faction Warps.",
+            "&7Level: &6&l{level}",
+            "&7Upgrade Cost: &6&l${cost}"
+          ],
+          "amt": 1
+        },
+        "upgradeMaxLevelLore": [
+          "&6Increase &6Max&7 Faction Warps.",
+          "&c&lMAX LEVEL REACHED"
+        ],
+        "upgradeParam": "INVALID_PARAMETER"
+      },
+      {
+        "enabled": true,
+        "name": "ENEMY",
+        "scope": "GLOBAL",
+        "costLevel": {
+          "1": {
+            "upgradeParam": 1.0,
+            "price": 10000.0
+          },
+          "2": {
+            "upgradeParam": 1.0,
+            "price": 50000.0
+          },
+          "3": {
+            "upgradeParam": 1.0,
+            "price": 100000.0
+          },
+          "4": {
+            "upgradeParam": 2.0,
+            "price": 500000.0
+          },
+          "5": {
+            "upgradeParam": 5.0,
+            "price": 1000000.0
+          }
+        },
+        "upgradeItem": {
+          "material": "BLAZE_POWDER",
+          "name": "&cEnemy Upgrade",
+          "lore": [
+            "&7Increase &cMax&7 Enemies Possible.",
+            "&7Level: &c&l{level}",
+            "&7Upgrade Cost: &c&l${cost}"
+          ],
+          "amt": 1
+        },
+        "upgradeMaxLevelLore": [
+          "&7Increase &cMax&7 Enemies Possible.",
+          "&c&lMAX LEVEL REACHED"
+        ],
+        "upgradeParam": "INVALID_PARAMETER"
+      },
+      {
+        "enabled": true,
+        "name": "ALLY",
+        "scope": "GLOBAL",
+        "costLevel": {
+          "1": {
+            "upgradeParam": 1.0,
+            "price": 10000.0
+          },
+          "2": {
+            "upgradeParam": 1.0,
+            "price": 50000.0
+          },
+          "3": {
+            "upgradeParam": 1.0,
+            "price": 100000.0
+          },
+          "4": {
+            "upgradeParam": 2.0,
+            "price": 500000.0
+          },
+          "5": {
+            "upgradeParam": 5.0,
+            "price": 1000000.0
+          }
+        },
+        "upgradeItem": {
+          "material": "PINK_TULIP",
+          "name": "&dAlly Upgrade",
+          "lore": [
+            "&7Increase &dMax&7 Allies Possible.",
+            "&7Level: &d&l{level}",
+            "&7Upgrade Cost: &d&l${cost}"
+          ],
+          "amt": 1
+        },
+        "upgradeMaxLevelLore": [
+          "&7Increase &dMax&7 Allies Possible.",
+          "&c&lMAX LEVEL REACHED"
+        ],
+        "upgradeParam": "INVALID_PARAMETER"
+      },
+      {
+        "enabled": true,
+        "name": "TRUCE",
+        "scope": "GLOBAL",
+        "costLevel": {
+          "1": {
+            "upgradeParam": 1.0,
+            "price": 10000.0
+          },
+          "2": {
+            "upgradeParam": 1.0,
+            "price": 50000.0
+          },
+          "3": {
+            "upgradeParam": 1.0,
+            "price": 100000.0
+          },
+          "4": {
+            "upgradeParam": 2.0,
+            "price": 500000.0
+          },
+          "5": {
+            "upgradeParam": 5.0,
+            "price": 1000000.0
+          }
+        },
+        "upgradeItem": {
+          "material": "ALLIUM",
+          "name": "&5Truce Upgrade",
+          "lore": [
+            "&7Increase &5Max&7 Truces Possible.",
+            "&7Level: &5&l{level}",
+            "&7Upgrade Cost: &c&l${cost}"
+          ],
+          "amt": 1
+        },
+        "upgradeMaxLevelLore": [
+          "&7Increase &5Max&7 Truces Possible.",
+          "&c&lMAX LEVEL REACHED"
+        ],
+        "upgradeParam": "INVALID_PARAMETER"
+      }
+    ]
+  }
+}
