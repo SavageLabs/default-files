@@ -1,0 +1,1177 @@
+{
+  "mainMenuTitle": "&aPermissions",
+  "mainMenuRows": 4,
+  "mainMenuBackgroundItem": {
+    "material": "BLACK_STAINED_GLASS_PANE",
+    "name": "&c",
+    "lore": [],
+    "amt": 1
+  },
+  "mainMenuRelationItems": {
+    "NEUTRAL": {
+      "hide": false,
+      "coordinate": {
+        "row": 1,
+        "column": 2
+      },
+      "displayItem": {
+        "material": "WHITE_TULIP",
+        "name": "&7Edit perms for &fneutral&7 factions.",
+        "lore": [
+          "&7Affects permissions for any &fneutral&7 faction.",
+          "&7This is the default relation."
+        ],
+        "amt": 1
+      }
+    },
+    "ENEMY": {
+      "hide": false,
+      "coordinate": {
+        "row": 1,
+        "column": 3
+      },
+      "displayItem": {
+        "material": "BLAZE_POWDER",
+        "name": "&7Edit perms for &cenemy&7 factions.",
+        "lore": [
+          "&7Affects permissions for &cenemy&7 factions."
+        ],
+        "amt": 1
+      }
+    },
+    "ALLY": {
+      "hide": false,
+      "coordinate": {
+        "row": 1,
+        "column": 5
+      },
+      "displayItem": {
+        "material": "PINK_TULIP",
+        "name": "&7Edit perms for &dally&7 factions.",
+        "lore": [
+          "&7Affects permissions for &dally&7 factions."
+        ],
+        "amt": 1
+      }
+    },
+    "TRUCE": {
+      "hide": false,
+      "coordinate": {
+        "row": 1,
+        "column": 6
+      },
+      "displayItem": {
+        "material": "ALLIUM",
+        "name": "&7Edit perms for &5truce&7 factions.",
+        "lore": [
+          "&7Affects permissions for &5truce&7 factions."
+        ],
+        "amt": 1
+      }
+    }
+  },
+  "mainMenuRoleInterfaceItem": {
+    "hideItem": false,
+    "name": "&7{role-tag}",
+    "lore": [
+      "&7Edit permissions for {role-tag}."
+    ]
+  },
+  "mainMenuPreviousPageItem": {
+    "hide": false,
+    "coordinate": {
+      "row": 2,
+      "column": 1
+    },
+    "displayItem": {
+      "material": "STONE_BUTTON",
+      "name": "&7Previous Page",
+      "lore": [
+        "&7View roles on the previous page."
+      ],
+      "amt": 1
+    }
+  },
+  "mainMenuNextPageItem": {
+    "hide": false,
+    "coordinate": {
+      "row": 2,
+      "column": 7
+    },
+    "displayItem": {
+      "material": "STONE_BUTTON",
+      "name": "&7Next Page",
+      "lore": [
+        "&7View roles on the next page."
+      ],
+      "amt": 1
+    }
+  },
+  "roleItemsPerPage": 3,
+  "roleItemsStartCoordinate": {
+    "row": 2,
+    "column": 3
+  },
+  "hurtPlayerActionIcon": "IRON_SWORD",
+  "hurtMobActionIcon": "BONE",
+  "buttonActionIcon": "STONE_BUTTON",
+  "leverActionIcon": "LEVER",
+  "pressurePlaceActionIcon": "STONE_PRESSURE_PLATE",
+  "fenceGateActionIcon": "OAK_FENCE_GATE",
+  "trapdoorActionIcon": "OAK_TRAPDOOR",
+  "hookActionIcon": "TRIPWIRE_HOOK",
+  "hopperActionIcon": "HOPPER",
+  "lecternActionIcon": "BOOKSHELF",
+  "comparatorActionIcon": "COMPARATOR",
+  "repeaterActionIcon": "REPEATER",
+  "dispenserActionIcon": "DISPENSER",
+  "doorActionIcon": "OAK_DOOR",
+  "chestActionIcon": "CHEST",
+  "enderChestActionIcon": "ENDER_CHEST",
+  "anvilActionIcon": "ANVIL",
+  "brewingStandActionIcon": "BREWING_STAND",
+  "enchantingTableActionIcon": "ENCHANTING_TABLE",
+  "furnanceActionIcon": "FURNACE",
+  "dropperActionIcon": "DROPPER",
+  "cauldronActionIcon": "CAULDRON",
+  "spawnEggActionIcon": "EGG",
+  "breakBlockActionIcon": "DIAMOND_PICKAXE",
+  "placeBlockActionIcon": "OAK_PLANKS",
+  "emptyBucketActionIcon": "BUCKET",
+  "fillBucketActionIcon": "WATER_BUCKET",
+  "blackListedBlocksActionIcon": "BEDROCK",
+  "kickActionIcon": "LEATHER_BOOTS",
+  "disbandActionIcon": "TNT",
+  "inviteActionIcon": "WRITABLE_BOOK",
+  "deInviteActionIcon": "WRITTEN_BOOK",
+  "demoteActionIcon": "IRON_BARS",
+  "prefixActionIcon": "CYAN_DYE",
+  "renameActionIcon": "NAME_TAG",
+  "unClaimAllActionIcon": "MYCELIUM",
+  "changeDescriptionActionIcon": "GREEN_DYE",
+  "flyActionIcon": "FEATHER",
+  "homeActionIcon": "COMPASS",
+  "setHomeActionIcon": "RED_BED",
+  "claimActionIcon": "GRASS_BLOCK",
+  "unClaimActionIcon": "COARSE_DIRT",
+  "warpActionIcon": "ENDER_PEARL",
+  "setWarpActionIcon": "BEACON",
+  "delWarpActionIcon": "FIRE_CHARGE",
+  "viewWarpPasswordIcon": "ENDER_EYE",
+  "relationActionIcon": "ARROW",
+  "promoteActionIcon": "LADDER",
+  "openActionIcon": "CLOCK",
+  "paypalActionIcon": "GOLD_INGOT",
+  "discordActionIcon": "DIAMOND",
+  "permsMenuStatusPlaceholderLocked": "&4&lLOCKED BY SERVER",
+  "permsMenuStatusPlaceholderTrue": "&a&lALLOWED",
+  "permsMenuStatusPlaceholderFalse": "&c&lDENIED",
+  "relationMenuTitle": "{relation} permissions.",
+  "relationMenuRows": 5,
+  "relationMenuBackgroundItem": {
+    "material": "BLACK_STAINED_GLASS_PANE",
+    "name": "&c",
+    "lore": [],
+    "amt": 1
+  },
+  "relationMenuSpecialItems": [
+    {
+      "commandsToRunAsPlayer": [
+        "/f perms"
+      ],
+      "item": {
+        "hide": false,
+        "coordinate": {
+          "row": 4,
+          "column": 8
+        },
+        "displayItem": {
+          "material": "OAK_DOOR",
+          "name": "&cBack",
+          "lore": [
+            "&7Click to go back to &cmain menu&7."
+          ],
+          "amt": 1
+        }
+      }
+    }
+  ],
+  "relationMenuItems": {
+    "TRAPDOOR": {
+      "hide": true,
+      "coordinate": {
+        "row": 0,
+        "column": 6
+      },
+      "displayItem": {
+        "material": "OAK_TRAPDOOR",
+        "name": "&aUse Trapdoors",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "FILL_BUCKET": {
+      "hide": true,
+      "coordinate": {
+        "row": 2,
+        "column": 8
+      },
+      "displayItem": {
+        "material": "WATER_BUCKET",
+        "name": "&aFill Buckets",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "LECTERN": {
+      "hide": true,
+      "coordinate": {
+        "row": 1,
+        "column": 0
+      },
+      "displayItem": {
+        "material": "BOOKSHELF",
+        "name": "&aUse Lecterns",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "ENDER_CHEST": {
+      "hide": true,
+      "coordinate": {
+        "row": 1,
+        "column": 6
+      },
+      "displayItem": {
+        "material": "ENDER_CHEST",
+        "name": "&aOpen Enderchest",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "FURNACE": {
+      "hide": true,
+      "coordinate": {
+        "row": 2,
+        "column": 1
+      },
+      "displayItem": {
+        "material": "FURNACE",
+        "name": "&aUse Furnace",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "LEVER": {
+      "hide": true,
+      "coordinate": {
+        "row": 0,
+        "column": 3
+      },
+      "displayItem": {
+        "material": "LEVER",
+        "name": "&aFlip Levers",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "CAULDRON": {
+      "hide": true,
+      "coordinate": {
+        "row": 2,
+        "column": 3
+      },
+      "displayItem": {
+        "material": "CAULDRON",
+        "name": "&aUse Cauldron",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "DROPPER": {
+      "hide": true,
+      "coordinate": {
+        "row": 2,
+        "column": 2
+      },
+      "displayItem": {
+        "material": "DROPPER",
+        "name": "&aUse Dropper",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "BREAK_BLOCK": {
+      "hide": true,
+      "coordinate": {
+        "row": 2,
+        "column": 5
+      },
+      "displayItem": {
+        "material": "DIAMOND_PICKAXE",
+        "name": "&aBreak Blocks",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "PLACE_BLOCK": {
+      "hide": true,
+      "coordinate": {
+        "row": 2,
+        "column": 6
+      },
+      "displayItem": {
+        "material": "OAK_PLANKS",
+        "name": "&aPlace Blocks",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "DISPENSER": {
+      "hide": true,
+      "coordinate": {
+        "row": 1,
+        "column": 3
+      },
+      "displayItem": {
+        "material": "DISPENSER",
+        "name": "&aUse Dispensers",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "BUTTON": {
+      "hide": true,
+      "coordinate": {
+        "row": 0,
+        "column": 2
+      },
+      "displayItem": {
+        "material": "STONE_BUTTON",
+        "name": "&aPush Buttons",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "FENCE_GATE": {
+      "hide": true,
+      "coordinate": {
+        "row": 0,
+        "column": 5
+      },
+      "displayItem": {
+        "material": "OAK_FENCE_GATE",
+        "name": "&aUse Fence Gates",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "EMPTY_BUCKET": {
+      "hide": true,
+      "coordinate": {
+        "row": 2,
+        "column": 7
+      },
+      "displayItem": {
+        "material": "BUCKET",
+        "name": "&aEmpty Buckets",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "ANVIL": {
+      "hide": true,
+      "coordinate": {
+        "row": 1,
+        "column": 7
+      },
+      "displayItem": {
+        "material": "ANVIL",
+        "name": "&aUse Anvil",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "HURT_MOB": {
+      "hide": true,
+      "coordinate": {
+        "row": 0,
+        "column": 1
+      },
+      "displayItem": {
+        "material": "BONE",
+        "name": "&aHurt Mobs",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "BREWING_STAND": {
+      "hide": true,
+      "coordinate": {
+        "row": 1,
+        "column": 8
+      },
+      "displayItem": {
+        "material": "BREWING_STAND",
+        "name": "&aUse Brewing Stand",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "HOOK": {
+      "hide": true,
+      "coordinate": {
+        "row": 0,
+        "column": 7
+      },
+      "displayItem": {
+        "material": "TRIPWIRE_HOOK",
+        "name": "&aUse Hooks",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "REPEATER": {
+      "hide": true,
+      "coordinate": {
+        "row": 1,
+        "column": 2
+      },
+      "displayItem": {
+        "material": "REPEATER",
+        "name": "&aUse Repeaters",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "HURT_PLAYER": {
+      "hide": true,
+      "coordinate": {
+        "row": 0,
+        "column": 0
+      },
+      "displayItem": {
+        "material": "IRON_SWORD",
+        "name": "&aHurt Players",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "DOOR": {
+      "hide": true,
+      "coordinate": {
+        "row": 1,
+        "column": 4
+      },
+      "displayItem": {
+        "material": "OAK_DOOR",
+        "name": "&aUse Doors",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "CHEST": {
+      "hide": true,
+      "coordinate": {
+        "row": 1,
+        "column": 5
+      },
+      "displayItem": {
+        "material": "CHEST",
+        "name": "&aOpen Chests",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "COMPARATOR": {
+      "hide": true,
+      "coordinate": {
+        "row": 1,
+        "column": 1
+      },
+      "displayItem": {
+        "material": "COMPARATOR",
+        "name": "&aUse Comparators",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "PRESSURE_PLATE": {
+      "hide": true,
+      "coordinate": {
+        "row": 0,
+        "column": 4
+      },
+      "displayItem": {
+        "material": "STONE_PRESSURE_PLATE",
+        "name": "&aStand On Pressure Plates",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "HOPPER": {
+      "hide": true,
+      "coordinate": {
+        "row": 0,
+        "column": 8
+      },
+      "displayItem": {
+        "material": "HOPPER",
+        "name": "&aOpen Hoppers",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "USE_BLACKLISTED_BLOCKS": {
+      "hide": true,
+      "coordinate": {
+        "row": 3,
+        "column": 0
+      },
+      "displayItem": {
+        "material": "BEDROCK",
+        "name": "&aUse Blacklisted Blocks",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "ENCHANTING_TABLE": {
+      "hide": true,
+      "coordinate": {
+        "row": 2,
+        "column": 0
+      },
+      "displayItem": {
+        "material": "ENCHANTING_TABLE",
+        "name": "&aUse Enchanting Table",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    },
+    "SPAWN_EGG": {
+      "hide": true,
+      "coordinate": {
+        "row": 2,
+        "column": 4
+      },
+      "displayItem": {
+        "material": "EGG",
+        "name": "&aUse Spawn Eggs",
+        "lore": [
+          "&7Click to &atoggle&7 status.",
+          "&7Currently: {status}"
+        ],
+        "amt": 1
+      }
+    }
+  },
+  "roleMenuTitle": "{role} permissions.",
+  "roleMenuRows": 6,
+  "roleMenuBackgroundItem": {
+    "material": "BLACK_STAINED_GLASS_PANE",
+    "name": "&c",
+    "lore": [],
+    "amt": 1
+  },
+  "roleMenuSpecialItems": [
+    {
+      "commandsToRunAsPlayer": [
+        "/f perms"
+      ],
+      "item": {
+        "hide": false,
+        "coordinate": {
+          "row": 5,
+          "column": 8
+        },
+        "displayItem": {
+          "material": "OAK_DOOR",
+          "name": "&cBack",
+          "lore": [
+            "&7Click to go back to &cmain menu&7."
+          ],
+          "amt": 1
+        }
+      }
+    }
+  ],
+  "roleMenuPlayerActionItems": {
+    "TRAPDOOR": {
+      "material": "OAK_TRAPDOOR",
+      "name": "&aUse Trapdoors",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "FILL_BUCKET": {
+      "material": "WATER_BUCKET",
+      "name": "&aFill Buckets",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "LECTERN": {
+      "material": "BOOKSHELF",
+      "name": "&aUse Lecterns",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "ENDER_CHEST": {
+      "material": "ENDER_CHEST",
+      "name": "&aOpen Enderchest",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "FURNACE": {
+      "material": "FURNACE",
+      "name": "&aUse Furnace",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "LEVER": {
+      "material": "LEVER",
+      "name": "&aFlip Levers",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "CAULDRON": {
+      "material": "CAULDRON",
+      "name": "&aUse Cauldron",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "DROPPER": {
+      "material": "DROPPER",
+      "name": "&aUse Dropper",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "BREAK_BLOCK": {
+      "material": "DIAMOND_PICKAXE",
+      "name": "&aBreak Blocks",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "PLACE_BLOCK": {
+      "material": "OAK_PLANKS",
+      "name": "&aPlace Blocks",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "DISPENSER": {
+      "material": "DISPENSER",
+      "name": "&aUse Dispensers",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "BUTTON": {
+      "material": "STONE_BUTTON",
+      "name": "&aPush Buttons",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "FENCE_GATE": {
+      "material": "OAK_FENCE_GATE",
+      "name": "&aUse Fence Gates",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "EMPTY_BUCKET": {
+      "material": "BUCKET",
+      "name": "&aEmpty Buckets",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "ANVIL": {
+      "material": "ANVIL",
+      "name": "&aUse Anvil",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "HURT_MOB": {
+      "material": "BONE",
+      "name": "&aHurt Mobs",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "BREWING_STAND": {
+      "material": "BREWING_STAND",
+      "name": "&aUse Brewing Stand",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "HOOK": {
+      "material": "TRIPWIRE_HOOK",
+      "name": "&aUse Hooks",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "REPEATER": {
+      "material": "REPEATER",
+      "name": "&aUse Repeaters",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "HURT_PLAYER": {
+      "material": "IRON_SWORD",
+      "name": "&aHurt Players",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "DOOR": {
+      "material": "OAK_DOOR",
+      "name": "&aUse Doors",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "CHEST": {
+      "material": "CHEST",
+      "name": "&aOpen Chests",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "COMPARATOR": {
+      "material": "COMPARATOR",
+      "name": "&aUse Comparators",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "PRESSURE_PLATE": {
+      "material": "STONE_PRESSURE_PLATE",
+      "name": "&aStand On Pressure Plates",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "HOPPER": {
+      "material": "HOPPER",
+      "name": "&aOpen Hoppers",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "USE_BLACKLISTED_BLOCKS": {
+      "material": "BEDROCK",
+      "name": "&aUse Blacklisted Blocks",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "ENCHANTING_TABLE": {
+      "material": "ENCHANTING_TABLE",
+      "name": "&aUse Enchanting Table",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "SPAWN_EGG": {
+      "material": "EGG",
+      "name": "&aUse Spawn Eggs",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    }
+  },
+  "roleMenuMemberActionItems": {
+    "DEINVITE": {
+      "material": "WRITTEN_BOOK",
+      "name": "&aDeinvite",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "CHANGE_DESCRIPTION": {
+      "material": "GREEN_DYE",
+      "name": "&aChange Description",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "VIEW_WARP_PASSWORD": {
+      "material": "ENDER_EYE",
+      "name": "&aView Warp Password",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "INVITE": {
+      "material": "WRITABLE_BOOK",
+      "name": "&aInvite",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "OPEN": {
+      "material": "CLOCK",
+      "name": "&aOpen",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "RENAME": {
+      "material": "NAME_TAG",
+      "name": "&aRename",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "PREFIX": {
+      "material": "CYAN_DYE",
+      "name": "&aPrefix",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "SETHOME": {
+      "material": "RED_BED",
+      "name": "&aSet Home",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "UNCLAIM": {
+      "material": "COARSE_DIRT",
+      "name": "&aUnclaim",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "DEMOTE": {
+      "material": "IRON_BARS",
+      "name": "&aDemote",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "FLY": {
+      "material": "FEATHER",
+      "name": "&aFly",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "WARP": {
+      "material": "ENDER_PEARL",
+      "name": "&aWarp",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "SET_WARP": {
+      "material": "BEACON",
+      "name": "&aSet Warp",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "DISBAND": {
+      "material": "TNT",
+      "name": "&aDisband",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "PAYPAL_SET": {
+      "material": "GOLD_INGOT",
+      "name": "&aSetpaypal",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "KICK": {
+      "material": "LEATHER_BOOTS",
+      "name": "&aKick",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "HOME": {
+      "material": "COMPASS",
+      "name": "&aHome",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "DEL_WARP": {
+      "material": "FIRE_CHARGE",
+      "name": "&aDel Warp",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "CLAIM": {
+      "material": "GRASS_BLOCK",
+      "name": "&aClaim",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "DISCORD_SET": {
+      "material": "DIAMOND",
+      "name": "&aSetdiscord",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "UNCLAIMALL": {
+      "material": "MYCELIUM",
+      "name": "&aUnclaimall",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "RELATION": {
+      "material": "ARROW",
+      "name": "&aRelation",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    },
+    "PROMOTE": {
+      "material": "LADDER",
+      "name": "&aPromote",
+      "lore": [
+        "&7Click to &atoggle&7 status.",
+        "&7Currently: {status}"
+      ],
+      "amt": 1
+    }
+  },
+  "roleMenuPreviousPageItem": {
+    "hide": false,
+    "coordinate": {
+      "row": 5,
+      "column": 1
+    },
+    "displayItem": {
+      "material": "STONE_BUTTON",
+      "name": "&7Previous Page",
+      "lore": [
+        "&7View permissions on the previous page."
+      ],
+      "amt": 1
+    }
+  },
+  "roleMenuNextPageItem": {
+    "hide": false,
+    "coordinate": {
+      "row": 5,
+      "column": 7
+    },
+    "displayItem": {
+      "material": "STONE_BUTTON",
+      "name": "&7Next Page",
+      "lore": [
+        "&7View permissions on the next page."
+      ],
+      "amt": 1
+    }
+  },
+  "roleMenuItemsPerPage": 36,
+  "roleMenuStartCoordinate": {
+    "row": 1,
+    "column": 0
+  }
+}

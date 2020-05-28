@@ -1,0 +1,325 @@
+{
+  "scopesMenuTitle": "&7Choose a scope.",
+  "scopesMenuRows": 3,
+  "scopesMenuBackgroundItem": {
+    "material": "BLACK_STAINED_GLASS_PANE",
+    "name": "&7",
+    "lore": [],
+    "amt": 1
+  },
+  "scopesMenuItems": {
+    "TERRITORY": {
+      "hide": false,
+      "coordinate": {
+        "row": 1,
+        "column": 3
+      },
+      "displayItem": {
+        "material": "GRASS_BLOCK",
+        "name": "&a&lTerritory Upgrades",
+        "lore": [
+          "&7Manage &aTerritory&7 upgrade.",
+          "&7Only affect &aspecfic&7 chunks."
+        ],
+        "amt": 1
+      }
+    },
+    "GLOBAL": {
+      "hide": false,
+      "coordinate": {
+        "row": 1,
+        "column": 5
+      },
+      "displayItem": {
+        "material": "BEACON",
+        "name": "&b&lGlobal Upgrades",
+        "lore": [
+          "&7Manage &bGlobal&7 upgrades.",
+          "&7Affect your faction &beverywhere&7."
+        ],
+        "amt": 1
+      }
+    }
+  },
+  "territoryChooseMenuTitle": "&aChoose a claim.",
+  "territoryChooseMenuRows": 6,
+  "territoryChooseMenuBackgroundItem": {
+    "material": "BLACK_STAINED_GLASS_PANE",
+    "name": "&7",
+    "lore": [],
+    "amt": 1
+  },
+  "territoryChooseMenuChunkHereItem": {
+    "hide": false,
+    "coordinate": {
+      "row": 1,
+      "column": 4
+    },
+    "displayItem": {
+      "material": "NETHER_STAR",
+      "name": "&aCurrent Claim",
+      "lore": [
+        "&7World: &a{world}",
+        "&7X: &a{x}",
+        "&7Z: &a{z}",
+        "&7Claim you are &astanding&7 in.",
+        "&7Click to &a&lMANAGE"
+      ],
+      "amt": 1
+    }
+  },
+  "territoryBrowserStartCoordinate": {
+    "row": 3,
+    "column": 0
+  },
+  "territoryBrowserItemsPerPage": 27,
+  "territoryItemFormat": {
+    "material": "GRASS_BLOCK",
+    "name": "&aClaim",
+    "lore": [
+      "&7World: &a{world}",
+      "&7X: &a{x}",
+      "&7Z: &a{z}",
+      "&7Click to &a&lMANAGE"
+    ],
+    "amt": 1
+  },
+  "territoryBrowserPreviousPageItem": {
+    "hide": false,
+    "coordinate": {
+      "row": 2,
+      "column": 1
+    },
+    "displayItem": {
+      "material": "STONE_BUTTON",
+      "name": "&7Previous Page",
+      "lore": [
+        "&7View claims on the previous page."
+      ],
+      "amt": 1
+    }
+  },
+  "territoryBrowserNextPageItem": {
+    "hide": false,
+    "coordinate": {
+      "row": 2,
+      "column": 7
+    },
+    "displayItem": {
+      "material": "STONE_BUTTON",
+      "name": "&7Next Page",
+      "lore": [
+        "&7View claims on the next page."
+      ],
+      "amt": 1
+    }
+  },
+  "territoryBrowserSpecialItems": [
+    {
+      "commandsToRunAsPlayer": [
+        "/f upgrade"
+      ],
+      "item": {
+        "hide": false,
+        "coordinate": {
+          "row": 2,
+          "column": 8
+        },
+        "displayItem": {
+          "material": "OAK_DOOR",
+          "name": "&cBack",
+          "lore": [
+            "&7Click to go back to &cmain menu&7."
+          ],
+          "amt": 1
+        }
+      }
+    }
+  ],
+  "territoryManageMenuTitle": "&7Manage Territory",
+  "territoryManageMenuRows": 6,
+  "defaultClaimName": "&aClaim",
+  "defaultClaimRenameCancelMessage": "cancel",
+  "defaultClaimIcon": "GRASS_BLOCK",
+  "defaultClaimIconAssignCancelMessage": "cancel",
+  "territoryManageMenuBackgroundItem": {
+    "material": "BLACK_STAINED_GLASS_PANE",
+    "name": "&7",
+    "lore": [],
+    "amt": 1
+  },
+  "territoryManageMenuNicknameItem": {
+    "hide": false,
+    "coordinate": {
+      "row": 1,
+      "column": 3
+    },
+    "displayItem": {
+      "material": "NAME_TAG",
+      "name": "&aRename Claim",
+      "lore": [
+        "&7Give this claim a &anickname&7.",
+        "&7Nicknames make it easier to find again",
+        "&7in &aterritory search menu."
+      ],
+      "amt": 1
+    }
+  },
+  "territoryManageMenuIconItem": {
+    "hide": false,
+    "coordinate": {
+      "row": 1,
+      "column": 5
+    },
+    "displayItem": {
+      "material": "DIAMOND",
+      "name": "&bIcon",
+      "lore": [
+        "&7Give this claim a &bicon&7.",
+        "&bIcons make it easier to find again",
+        "&7in &aterritory search menu."
+      ],
+      "amt": 1
+    }
+  },
+  "territoryManageMenuCurrentItem": {
+    "hide": false,
+    "coordinate": {
+      "row": 2,
+      "column": 4
+    },
+    "displayItem": {
+      "material": "GRASS_BLOCK",
+      "name": "&bCurrent Claim",
+      "lore": [
+        "&7World: &a{world}",
+        "&7X: &a{x}",
+        "&7Z: &a{z}",
+        "&7You are currently &a&lMANAGING&7 this chunk."
+      ],
+      "amt": 1
+    }
+  },
+  "territoryManageMenuPreviousPageItem": {
+    "hide": false,
+    "coordinate": {
+      "row": 3,
+      "column": 1
+    },
+    "displayItem": {
+      "material": "STONE_BUTTON",
+      "name": "&7Previous Page",
+      "lore": [
+        "&7View claims on the previous page."
+      ],
+      "amt": 1
+    }
+  },
+  "territoryManageMenuNextPageItem": {
+    "hide": false,
+    "coordinate": {
+      "row": 3,
+      "column": 7
+    },
+    "displayItem": {
+      "material": "STONE_BUTTON",
+      "name": "&7Next Page",
+      "lore": [
+        "&7View claims on the next page."
+      ],
+      "amt": 1
+    }
+  },
+  "territoryManageMenuSpecialItems": [
+    {
+      "commandsToRunAsPlayer": [
+        "/f upgrade TERRITORY"
+      ],
+      "item": {
+        "hide": false,
+        "coordinate": {
+          "row": 3,
+          "column": 8
+        },
+        "displayItem": {
+          "material": "OAK_DOOR",
+          "name": "&cBack",
+          "lore": [
+            "&7Click to go back to &cmain menu&7."
+          ],
+          "amt": 1
+        }
+      }
+    }
+  ],
+  "territoryManageMenuItemsPerPage": 18,
+  "territoryManageMenuPageStartCoordinate": {
+    "row": 4,
+    "column": 0
+  },
+  "globalUpgradesTitle": "&bGlobal Upgrades",
+  "globalUpgradesRows": 4,
+  "globalUpgradesBackgroundItem": {
+    "material": "BLACK_STAINED_GLASS_PANE",
+    "name": "&7",
+    "lore": [],
+    "amt": 1
+  },
+  "globalUpgradesStartCoordinate": {
+    "row": 1,
+    "column": 0
+  },
+  "globalUpgradesItemsPerPage": 18,
+  "globalPageItem": {
+    "hide": false,
+    "coordinate": {
+      "row": 3,
+      "column": 1
+    },
+    "displayItem": {
+      "material": "STONE_BUTTON",
+      "name": "&7Previous Page",
+      "lore": [
+        "&7View upgrades on the previous page."
+      ],
+      "amt": 1
+    }
+  },
+  "globalNextPageItem": {
+    "hide": false,
+    "coordinate": {
+      "row": 3,
+      "column": 7
+    },
+    "displayItem": {
+      "material": "STONE_BUTTON",
+      "name": "&7Next Page",
+      "lore": [
+        "&7View upgrades on the next page."
+      ],
+      "amt": 1
+    }
+  },
+  "globalMenuSpecialItems": [
+    {
+      "commandsToRunAsPlayer": [
+        "/f upgrade"
+      ],
+      "item": {
+        "hide": false,
+        "coordinate": {
+          "row": 3,
+          "column": 8
+        },
+        "displayItem": {
+          "material": "OAK_DOOR",
+          "name": "&cBack",
+          "lore": [
+            "&7Click to go back to &cmain menu&7."
+          ],
+          "amt": 1
+        }
+      }
+    }
+  ]
+}
