@@ -1,0 +1,40 @@
+{
+  "tntBankCommandPermission": "factionsx.tnt.bank",
+  "tntFillCommandPermission": "factionsx.tnt.fill",
+  "commandTntFillHelp": "use tnt fill.",
+  "commandTntBankHelp": "use tnt bank.",
+  "commandTntbankAddNotEnoughTnt": "&7You only have &6%1$s&7 tnt in your inventory.",
+  "commandTntbankAddSuccess": "&7You've added &6%1$s&7 tnt, bank balance: &6%2$s&7/&6%3$s&7.",
+  "commandTntBankAddHelp": "add tnt to your bank.",
+  "commandTntBankRemoveHelp": "remove tnt from your bank.",
+  "commandTntBankBalHelp": "view amount of tnt in bank.",
+  "commandTntBankBalMessage": "&7Your tntbank has &6%1$s&7.",
+  "commandTntBankRemoveNotEnough": "&7You do not have enough tnt in the bank to widthdraw. Balance: %1$s",
+  "commandTntBankRemoveTaken": "&7You have taken %1$s tnt from the bank.",
+  "tntBankLimit": 10000,
+  "tntFillMaxRadius": 10,
+  "commandTntFillRadiusTooHigh": "&7The max tntfill radius is &6%1$s&7.",
+  "commandTntFillFailed": "&7Tnt was only partially filled since you ran out of tnt.",
+  "commandTntFillComplete": "&7Transaction completed, %1$s tnt was taken from your inventory.",
+  "commandTntFillDispensers": "&7Found &6%1$s&7 dispensers in radius.",
+  "tntFillPermissionName": "use_tntfill",
+  "tntFillPermissionInterfaceItem": {
+    "material": "MILK_BUCKET",
+    "name": "&aUse TNT Fill",
+    "lore": [
+      "&7Click to &atoggle&7 status.",
+      "&7Currently: {status}"
+    ],
+    "amt": 1
+  },
+  "tntBankPermissionName": "use_tntbank",
+  "tntBankPermissionInterfaceItem": {
+    "material": "CHEST_MINECART",
+    "name": "&aUse TNT Bank",
+    "lore": [
+      "&7Click to &atoggle&7 status.",
+      "&7Currently: {status}"
+    ],
+    "amt": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unsafeBlocks": [
+    "LAVA",
+    "MAGMA_BLOCK",
+    "VOID_AIR",
+    "WATER"
+  ],
+  "centerX": 0,
+  "centerZ": 0,
+  "radiusInChunks": 100,
+  "commandWildHelp": "teleport to a random location.",
+  "useCooldown": true,
+  "cooldownSeconds": 300,
+  "coolDownDeny": "&7Wild Teleport is on cooldown for &6%1$s&7 seconds.",
+  "useCoolDownBypassPermission": true,
+  "cooldownBypassPermission": "factionsx.wild-cooldown-bypass",
+  "usePermission": false,
+  "wildPermission": "factionsx.wild",
+  "teleportWarmupMessage": "&7Teleporting in &63&7 seconds...",
+  "teleportWarmupInSeconds": 3,
+  "unsafeLocation": "&7Teleport location is unsafe, cancelled.",
+  "successMessage": "&7Teleported successfully.",
+  "automaticRetry": true,
+  "automaticRetryMessage": "&7Retrying in %1$s seconds.",
+  "automaticRetryDelay": 10
+}
